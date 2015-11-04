@@ -1,6 +1,6 @@
 'use strict';
 
-interface Message{
+export interface Message{
 	name: string;
 	message: string;
 }
