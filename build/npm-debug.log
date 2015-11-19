@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'posix' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'posix', null ]
+6 verbose cache add name=undefined spec="posix" args=["posix",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'posix',
+7 verbose parsed url   path: 'posix',
+7 verbose parsed url   href: 'posix' }
+8 silly lockFile bfdba57c-posix posix
+9 verbose lock posix /home/testuser/.npm/bfdba57c-posix.lock
+10 silly lockFile bfdba57c-posix posix
+11 silly lockFile bfdba57c-posix posix
+12 verbose addNamed [ 'posix', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 28a901a0-posix posix@
+15 verbose lock posix@ /home/testuser/.npm/28a901a0-posix.lock
+16 silly addNameRange { name: 'posix', range: '*', hasData: false }
+17 verbose url raw posix
+18 verbose url resolving [ 'https://registry.npmjs.org/', './posix' ]
+19 verbose url resolved https://registry.npmjs.org/posix
+20 info trying registry request attempt 1 at 23:07:18
+21 http GET https://registry.npmjs.org/posix
+22 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+23 info trying registry request attempt 2 at 23:07:28
+24 http GET https://registry.npmjs.org/posix
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+26 info trying registry request attempt 3 at 23:08:28
+27 http GET https://registry.npmjs.org/posix
+28 silly lockFile 28a901a0-posix posix@
+29 silly lockFile 28a901a0-posix posix@
+30 error network getaddrinfo ENOTFOUND
+30 error network This is most likely not a problem with npm itself
+30 error network and is related to network connectivity.
+30 error network In most cases you are behind a proxy or have bad network settings.
+30 error network
+30 error network If you are behind a proxy, please make sure that the
+30 error network 'proxy' config is set properly.  See: 'npm help config'
+31 error System Linux 3.13.0-66-generic
+32 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "posix"
+33 error cwd /home/testuser/NodeTests/chat/build
+34 error node -v v0.10.25
+35 error npm -v 1.3.10
+36 error syscall getaddrinfo
+37 error code ENOTFOUND
+38 error errno ENOTFOUND
+39 verbose exit [ 1, true ]
